@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2ecff6b.css",
-    "main.js": "/static/js/main.66bdffec.js",
-    "static/js/453.d041a142.chunk.js": "/static/js/453.d041a142.chunk.js",
-    "index.html": "/index.html",
-    "main.f2ecff6b.css.map": "/static/css/main.f2ecff6b.css.map",
-    "main.66bdffec.js.map": "/static/js/main.66bdffec.js.map",
-    "453.d041a142.chunk.js.map": "/static/js/453.d041a142.chunk.js.map"
+    "main.css": "/cj-and-nicole-wedding/static/css/main.f2ecff6b.css",
+    "main.js": "/cj-and-nicole-wedding/static/js/main.dac22b0a.js",
+    "static/js/453.d041a142.chunk.js": "/cj-and-nicole-wedding/static/js/453.d041a142.chunk.js",
+    "index.html": "/cj-and-nicole-wedding/index.html",
+    "main.f2ecff6b.css.map": "/cj-and-nicole-wedding/static/css/main.f2ecff6b.css.map",
+    "main.dac22b0a.js.map": "/cj-and-nicole-wedding/static/js/main.dac22b0a.js.map",
+    "453.d041a142.chunk.js.map": "/cj-and-nicole-wedding/static/js/453.d041a142.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2ecff6b.css",
-    "static/js/main.66bdffec.js"
+    "static/js/main.dac22b0a.js"
   ]
 }
