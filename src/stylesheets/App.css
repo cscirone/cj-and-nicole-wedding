@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: clamp(0.75rem, 0.571rem + 0.476vw, 1rem) !important;
+
+  .nav-link {
+    display: flex;
+    flex: 1 1 0;
+    text-decoration: none;
+
+    button {
+      flex: 1 1 0;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+    /*font-family: 'Expose', sans-serif;*/
+
+    &.nav-title {
+      font-size: 1.75em;
+      
+      a {
+        color: inherit;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-size: 0.875em;
+  }
+
+  h6 {
+    font-size: 0.75em;
+  }
+
+  blockquote {
+    > p {
+      font-style: italic;
+      font-size: 1.2em;
+      color: theme('colors.neutral.600');
+
+      &:first-child::before {
+        content: "“";
+      }
+
+      &:last-child::after {
+        content: "”";
+      }
+    }
+  }
+
+  a {
+    color: theme('colors.blue.500');
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.nav-link,
+    &:has(> button > span) {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  button {
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
