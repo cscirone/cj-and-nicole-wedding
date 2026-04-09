@@ -136,7 +136,7 @@ function AuthProvider({ children }) {
     return () => {
       isMounted = false
     }
-  }, [user, setCurrentUserDoc])
+  }, [user, setCurrentAdminDoc, setCurrentUserDoc])
 
   const value = useMemo(
     () => ({

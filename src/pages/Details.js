@@ -5,7 +5,6 @@ import {
     LocationPanel,
     HotelRecommendationsPanel,
     DinnerMenuPanel,
-    DressCodePanel,
     FaqPanel,
 } from './detailsPanels/index'
 
