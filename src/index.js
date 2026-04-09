@@ -81,7 +81,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <AuthProvider>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <App />
         </HashRouter>
       </AuthProvider>
